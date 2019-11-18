@@ -1,0 +1,33 @@
+body {
+  padding-top: 20px;
+  position: relative;
+}
+
+.far_hover {
+  transition: transform 1s;
+}
+
+.card:hover .far_hover {
+  transform: scale(1.15);
+}
+
+.services-offer, .personal-information, .portfolio-line {
+  padding-top: 20px;
+  margin-top: -20px;
+}
+@media screen and (max-width: 1024px) {
+  .services-offer .media, .personal-information .media, .portfolio-line .media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .services-offer .media-body, .personal-information .media-body, .portfolio-line .media-body {
+    margin-top: 16px;
+  }
+  .services-offer .responsive-mt, .personal-information .responsive-mt, .portfolio-line .responsive-mt {
+    margin-top: 16px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

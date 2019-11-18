@@ -1,0 +1,27 @@
+body
+  padding-top: 20px
+  position: relative
+
+.far_hover
+  transition: transform 1s
+
+.card:hover .far_hover
+  transform: scale(1.15)
+
+.services-offer, .personal-information, .portfolio-line
+  padding-top: 20px
+  margin-top: -20px
+
+
+  @media screen and (max-width: 1024px)
+    .media
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: flex-start
+
+    .media-body
+      margin-top: 16px
+
+    .responsive-mt
+      margin-top: 16px
